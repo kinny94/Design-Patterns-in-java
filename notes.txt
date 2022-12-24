@@ -34,12 +34,25 @@
 
 # Single Responsibility principle -> It states that a class should have only one reason to change. A single class should have only one responsibility. If a class take on a lot of responsibility, you end up with a God object which is an anti-pattern. 
 
-# Open Close Principle + Specification deign pattern -> The whole principle for this design it to be open for extension but close for modification.
+# Open Close Principle + Specification deign pattern -> The whole principle for this design it to be open for extension but close for modification using inheritance or interfaces
 
 # Liskov Substitution Principle (LSP) -> The idea of this principle is you should be able to substitute a sub class for a base class without breaking
 
-# Interface Segregation Principle (ISP) -> Its a recommendation on how to split interface into smaller interfaces
+# Interface Segregation Principle (ISP) -> Its a recommendation on how to split interface into smaller interfaces. YAGNI..
 
-# Dependency Inversion Principle (DIP) -> It connectes directly to dependency injection but they are not the same thing. Its is split into two parts
+# Dependency Inversion Principle (DIP) -> It has nothing to do with dependency injection and they are not the same thing. Its is split into two parts
     * A. High level modules should not depend on low-level modules. Both should depend on abstractions
     * B. Abstractions should not depend on details. Details should depend on abstractions.
+
+# Creation Patterns
+    * Deal with the creation (construction) of objects.
+    * Explicit (constructor) vs implicit (DI, reflection, etc)
+    * Wholesale (single statement) vs piecewise (step-by-step)
+
+# Structural Patterns
+    * Concerned with the structure (eg, class memebers)
+    * Many patterns are wrappers that mimic the underlying class interface
+    * Stress the importance of good API design
+
+# Behavioral Patterns
+    * They are all different; no central theme
