@@ -1,4 +1,4 @@
-# SOLID Design principles
+# SOLID Design principles - A set of deign principles for software design / architecture
     * Creational
     * Structural
     * Behavioral
@@ -31,3 +31,7 @@
     * Strategy
     * Template Method
     * Visitor
+
+Single Responsibility principle -> It states that a class should have only one reason to change. A single class should have only one responsibility. If a class take on a lot of responsibility, you end up with a God object which is an anti-pattern. 
+
+Open Close Principle + Specification deign pattern -> The whole principle for this design it to be open for extension but close for modification 
