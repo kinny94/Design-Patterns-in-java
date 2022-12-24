@@ -1,0 +1,33 @@
+# SOLID Design principles
+    * Creational
+    * Structural
+    * Behavioral
+
+# Creational Pattern
+    * Builder
+    * Factories
+        -> Abstract Factory
+        -> Factory Method
+    * Prototype
+    * Singleton
+
+# Structural Pattern
+    * Adapter
+    * Bridge
+    * Composite
+    * Facade
+    * FlyWeight
+    * Proxy
+
+# Behavioral Pattern
+    * Chain of Responsibility
+    * Command
+    * Interpreter
+    * Iterator
+    * Mediator
+    * Memento
+    * Observer
+    * State
+    * Strategy
+    * Template Method
+    * Visitor
