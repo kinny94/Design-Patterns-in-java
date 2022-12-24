@@ -39,3 +39,7 @@
 # Liskov Substitution Principle (LSP) -> The idea of this principle is you should be able to substitute a sub class for a base class without breaking
 
 # Interface Segregation Principle (ISP) -> Its a recommendation on how to split interface into smaller interfaces
+
+# Dependency Inversion Principle (DIP) -> It connectes directly to dependency injection but they are not the same thing. Its is split into two parts
+    * A. High level modules should not depend on low-level modules. Both should depend on abstractions
+    * B. Abstractions should not depend on details. Details should depend on abstractions.

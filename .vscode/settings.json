@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/arjundass/Downloads/javatuples-1.2.jar"
+    ]
+}
