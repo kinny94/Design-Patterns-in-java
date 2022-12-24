@@ -32,6 +32,8 @@
     * Template Method
     * Visitor
 
-Single Responsibility principle -> It states that a class should have only one reason to change. A single class should have only one responsibility. If a class take on a lot of responsibility, you end up with a God object which is an anti-pattern. 
+# Single Responsibility principle -> It states that a class should have only one reason to change. A single class should have only one responsibility. If a class take on a lot of responsibility, you end up with a God object which is an anti-pattern. 
 
-Open Close Principle + Specification deign pattern -> The whole principle for this design it to be open for extension but close for modification 
+# Open Close Principle + Specification deign pattern -> The whole principle for this design it to be open for extension but close for modification.
+
+# Liskov Substitution Principle (LSP) -> The idea of this principle is you should be able to substitute a sub class for a base class without breaking
