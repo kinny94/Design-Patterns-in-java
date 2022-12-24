@@ -37,3 +37,5 @@
 # Open Close Principle + Specification deign pattern -> The whole principle for this design it to be open for extension but close for modification.
 
 # Liskov Substitution Principle (LSP) -> The idea of this principle is you should be able to substitute a sub class for a base class without breaking
+
+# Interface Segregation Principle (ISP) -> Its a recommendation on how to split interface into smaller interfaces
