@@ -77,4 +77,14 @@
     A Factory is a component responsible solely for the wholesale creation of objects
     A Factory method is a static method that creates objects
     A factory can be external or reside inside the object as an innerclass
-    
+
+# Prototype - Complicated objects aren't designed from scratch for eg cars
+    * An existing (partially or fully constructed) design is a prototype.
+    * We make a copy of the prototype and customize it 
+        -> requires deep copy support
+    * We make the cloning convenient 
+    * To implement a prototype, partially construct an object and store it somewhere else
+    * clone the prototype 
+        -> Implement your own deep copy functionality using copy constructor
+        -> Serialize and deserialize
+    * customize the resulting object
