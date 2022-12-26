@@ -88,3 +88,9 @@
         -> Implement your own deep copy functionality using copy constructor
         -> Serialize and deserialize
     * customize the resulting object
+
+# Singleton - For some components it only makes sense to have one in the System
+    * Database Repository
+    * Object Factory
+    * We provide everyone with the same instance
+    * Need to take care of lazy instantiation and thread safety
