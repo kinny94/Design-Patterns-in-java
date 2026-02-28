@@ -32,5 +32,15 @@ public class Main {
         thread.start();
         thread2.start();
         System.out.println("We are in thread " + Thread.currentThread().getName() + " after starting a new thread");
+
+        Thread thread3 = new NewThread();
+        thread3.start();
+    }
+
+    private static class NewThread extends Thread {
+        @Override
+        public void run() {
+            System.out.println("Hello from " + Thread.currentThread().getName());
+        }
     }
 }
